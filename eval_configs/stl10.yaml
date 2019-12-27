@@ -1,0 +1,8 @@
+dataset: stl_10
+network: vgg16
+alphas: !!python/tuple ['0', '0.1', '0.2', '0.3', '0.4', '0.5', '0.6', '0.7', '0.8', '0.9', '1.0']
+destination: camera_ready
+epochs: !!python/tuple [199]
+number_of_trials: 4
+mean: !!python/tuple [0.447, 0.44, 0.4]
+std_dev: !!python/tuple [0.26, 0.256, 0.271]

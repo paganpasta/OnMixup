@@ -1,0 +1,8 @@
+dataset: out-of-distribution
+network: resnet18
+alphas: !!python/tuple ['0','0.3','1.0']
+destination: camera_ready
+epochs: !!python/tuple [199]
+number_of_trials: 4
+mean: !!python/tuple [0.2868]
+std_dev: !!python/tuple [0.3524]
