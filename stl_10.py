@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
-times = 3
+times = 1
 
 test_dataset = STL10(root='./data/', split='test', transform=None, download=True)
 

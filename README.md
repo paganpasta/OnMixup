@@ -10,7 +10,7 @@ Install [NVIDIA Docker](https://github.com/NVIDIA/nvidia-docker)
 #### Building & Running the docker image
 
 1. `nvidia-docker build --rm --tag on_mixup:latest .`
-2. `nvidia-docker run -p 8000:8000 -v /home/aditya/on_mixup:/home/on_mixup --rm --name on_mixup -it on_mixup:latest`
+2. `nvidia-docker run -p 8000:8000 -v $PATH/TO/PROJECT_DIR:/home/on_mixup --rm --name on_mixup -it on_mixup:latest`
 
 #### Generating The Density Plots
 

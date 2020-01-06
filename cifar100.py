@@ -18,7 +18,7 @@ TIME_NOW = str(datetime.now().strftime('%Y-%m-%d--%H-%M'))
 
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
-alphas = [0.9, 1.0]
+alphas = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
 
 for alpha in alphas:
     ### Hyperparameters
