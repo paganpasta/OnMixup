@@ -7,8 +7,7 @@ import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 from torch.optim import SGD, lr_scheduler
 from models.resnet import resnet18
-from utils import mixup_criterion, mixup_data, compute_calibration_metrics, save_checkpoint, plot_scatterplot
-import numpy as np
+from utils import mixup_criterion, mixup_data, compute_calibration_metrics, save_checkpoint
 import os
 from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
