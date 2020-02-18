@@ -1,3 +1,6 @@
+``` NeurIPS 2019 Reproducibility Project ```
+
+Paper reproduced: [pdf](https://arxiv.org/pdf/1905.11001.pdf)
 
 
 
